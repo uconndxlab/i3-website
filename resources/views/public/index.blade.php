@@ -264,7 +264,7 @@
             <div class="col-md-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/daley.jpg" width="200" class="img-fluid rounded-1" alt="Brian Daley">
+                        <img src="/img/people/daley-400x400.jpg" width="200" class="img-fluid rounded-1" alt="Brian Daley">
                     </div>
                     <div class="col">
                         <h5 class="text-white">Brian Daley</h5>
