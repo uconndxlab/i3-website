@@ -50,16 +50,16 @@
           <div data-aos="fade-up" class="col-md-4 mb-4">
             <div class="card display-card" style="background:#EDF9FF;border-top:8px solid var(--accent-1)!important;">
               <div class="card-body">
-                <h5 class="card-title">Cubed Labs (❒ labs)</h5>
-                <p class="card-text">Developing custom software solutions and facilitating strategic collaborative implementations to improve internal institutional efficiencies.</p>
+                <h5 class="card-title">For UConn and Beyond<br>[Cubed Labs]</h5>
+                <p class="card-text">We partner with UConn departments to enhance their systems through tailored digital solutions. Whether it's developing custom tools or optimizing existing resources, our goal is to simplify and improve the experience for UConn faculty, staff, and students.</p>
               </div>
             </div>
           </div>
           <div data-aos="fade-up" class="col-md-4 mb-4">
             <div class="card display-card" style="background:#E5F2FD;border-top:8px solid var(--accent-2)!important;">
               <div class="card-body">
-                <h5 class="card-title">The Digital Experience Group (DXG)</h5>
-                <p class="card-text">Providing high-quality app development, web design, UI/UX design, and other technology innovation services to the UConn research community.</p>
+                <h5 class="card-title">For Researchers<br>[Digital Experience Group]</h5>
+                <p class="card-text">The Digital Experience Group (DXG) is a core facility dedicated to supporting the UConn research community. We provide top-tier app development, web design, UI/UX design, and other innovative technology services, helping researchers bring their projects to life with cutting-edge digital solutions.</p>
 
                 <div class="btn display-btn btn-arrow-slide"> <a href="https://dxgroup.core.uconn.edu/" class="btn-arrow-slide-cont btn-arrow-slide-cont--blue" style="width:230px"> <span class="btn-arrow-slide-circle" aria-hidden="true"> <span class="btn-arrow-slide-arrow btn-arrow-slide-icon"></span> </span> <span class="btn-arrow-slide-text"> Learn about DXG </span> </a> </div>
               </div>
@@ -68,8 +68,8 @@
           <div data-aos="fade-up" class="col-md-4 mb-4">
             <div class="card display-card" style="background:#E5EDFB;border-top:8px solid var(--accent-3)!important;">
               <div class="card-body">
-                <h5 class="card-title">Strategic Insights and Modeling Lab (SIMLab)</h5>
-                <p class="card-text">Advancing UConn's academic operations through data-driven simulations and collaborative research.</p>
+                <h5 class="card-title">For The Future<br>[Strategic Insights and Modeling Lab]</h5>
+                <p class="card-text">SIMLab is an ad-hoc working group of faculty and staff aimed at advancing UConn's academic operations through data-driven simulations and collaborative research.</p>
               </div>
             </div>
           </div>
