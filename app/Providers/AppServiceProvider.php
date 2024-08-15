@@ -1,24 +1,24 @@
 <?php
 
-namespace App\View\Components;
+namespace App\Providers;
 
-use Closure;
-use Illuminate\Contracts\View\View;
-use Illuminate\View\Component;
-use App\Models\Post;
+use Illuminate\Support\ServiceProvider;
 
-class PostCard extends Component
+class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Create a new component instance.
+     * Register any application services.
      */
-    public function __construct(public Post $post) {}
+    public function register(): void
+    {
+        //
+    }
 
     /**
-     * Get the view / contents that represent the component.
+     * Bootstrap any application services.
      */
-    public function render(): View|Closure|string
+    public function boot(): void
     {
-        return view('components.post-card');
+        //
     }
 }
