@@ -14,6 +14,6 @@ $badges = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="Ecoregions" :$badges>
-    <img loading="lazy" src="/img/work/ecoregions.png" alt="Ecoregions graphic" class="img-fluid mb-3">
+    <img loading="lazy" height="450" src="/img/work/ecoregions.png" alt="Ecoregions graphic" class="img-fluid mb-3">
     <p>Launching soon!</p>
 </x-projects.template-modal>

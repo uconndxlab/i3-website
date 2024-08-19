@@ -14,6 +14,6 @@ $badges = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="Financial Game" :$badges>
-    <img loading="lazy" src="/img/work/financial-game.png" alt="Financial Game graphic" class="img-fluid mb-3">
+    <img loading="lazy" height="450" src="/img/work/financial-game.png" alt="Financial Game graphic" class="img-fluid mb-3">
     <p>Launching soon!</p>
 </x-projects.template-modal>

@@ -17,6 +17,6 @@ $links = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="UConn Natural Resources Conservation Academy" :$links :$badges>
-    <img loading="lazy" src="/img/work/nrca.png" alt="UConn Natural Resources Conservation Academy graphic" class="img-fluid mb-3">
+    <img loading="lazy" height="450" src="/img/work/nrca.png" alt="UConn Natural Resources Conservation Academy graphic" class="img-fluid mb-3">
     <p>The DX Group redesigned and launched the UConn NRCA website to engage diverse teen and adult participants in natural resources conservation.</p>
 </x-projects.template-modal>

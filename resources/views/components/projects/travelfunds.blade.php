@@ -17,6 +17,6 @@ $links = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="Faculty Travel Funding" :$links :$badges>
-    <img loading="lazy" src="/img/work/travel-funds.png" alt="Faculty Travel Funding graphic" class="img-fluid mb-3">
+    <img loading="lazy" height="450" src="/img/work/travel-funds.png" alt="Faculty Travel Funding graphic" class="img-fluid mb-3">
     <p>This website allows the submission and management of UConn Faculty travel fund requests.</p>
 </x-projects.template-modal>
