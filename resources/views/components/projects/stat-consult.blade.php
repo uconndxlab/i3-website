@@ -14,5 +14,6 @@ $badges = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="Stats Consulting Website" :$badges>
+    <img loading="lazy" src="/img/work/scs.png" alt="Stats Consulting Website graphic" class="img-fluid mb-3">
     <p>Launching soon!</p>
 </x-projects.template-modal>

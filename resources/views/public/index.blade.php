@@ -14,7 +14,7 @@
         <span class="dot" style="background-color:var(--accent-3)"></span>
       </div>
       <div style="height: 7rem;" class="d-flex align-items-center ps-2">
-        <h2 class="typewrite-static-text" style="margin:0;margin-top:0.64rem;">We <span href="" class="typewrite" data-period="2000" data-type='[ "create websites", "build systems", "explore technology", "implement solutions","develop apps" ]'>develop apps</span><span class="type-cursor" id="typeCursor">|</span> for UConn.</h2>
+        <h2 class="typewrite-static-text" style="margin:0;margin-top:0.64rem;color:var(--black)">We <span href="" class="typewrite" data-period="2000" data-type='[ "create websites", "build systems", "explore technology", "implement solutions","develop apps" ]'>develop apps</span><span class="type-cursor" id="typeCursor">|</span> for UConn.</h2>
       </div>
       
         
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6 mb-2" style="position:relative">
               <img style="object-fit:contain;" data-aos="fade-left"  src="/img/bin-i3.svg" width="100%" height="500px" alt="i3 logo in binary">
-              <img style="object-fit:contain;padding:0px 0px;position:absolute;" class="circle circle-outside" src="img/bin-i3-outside.svg" width="100%" height="500px" alt="decoration">
+              <img style="object-fit:contain;padding:0px 0px;position:absolute;" class="circle circle-outside" src="img/bin-i3-outside.svg" width="100%" height="500px" alt="decoration outside logo">
             </div>
           </div>
         </div>
@@ -47,28 +47,31 @@
         <div class="circle circle2"></div>
         <h2 data-aos="fade-up" class="display-header mb-5" style="color:var(--accent-3)">Explore Our Subunits</h2>
         <div class="row">
-          <div data-aos="fade-up" class="col-md-4 mb-4">
+          <div data-aos="fade-up" class="col-lg-4 mb-4">
             <div class="card display-card" style="background:#EDF9FF;border-top:8px solid var(--accent-1)!important;">
               <div class="card-body">
-                <h5 class="card-title">For UConn and Beyond<br>[Cubed Labs]</h5>
+                <p><span class="badge pt-2" style="background-color:var(--black)">For UConn and Beyond</span></p>
+                <h5 class="card-title">Cubed Labs (❒ labs)</h5>
                 <p class="card-text">We partner with UConn departments to enhance their systems through tailored digital solutions. Whether it's developing custom tools or optimizing existing resources, our goal is to simplify and improve the experience for UConn faculty, staff, and students.</p>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" class="col-md-4 mb-4">
+          <div data-aos="fade-up" class="col-lg-4 mb-4">
             <div class="card display-card" style="background:#E5F2FD;border-top:8px solid var(--accent-2)!important;">
               <div class="card-body">
-                <h5 class="card-title">For Researchers<br>[Digital Experience Group]</h5>
+                <p><span class="badge pt-2" style="background-color:var(--black)">For Researchers</span></p>
+                <h5 class="card-title">The Digital Experience Group (DXG)</h5>
                 <p class="card-text">The Digital Experience Group (DXG) is a core facility dedicated to supporting the UConn research community. We provide top-tier app development, web design, UI/UX design, and other innovative technology services, helping researchers bring their projects to life with cutting-edge digital solutions.</p>
 
                 <div class="btn display-btn btn-arrow-slide"> <a href="https://dxgroup.core.uconn.edu/" class="btn-arrow-slide-cont btn-arrow-slide-cont--blue" style="width:230px"> <span class="btn-arrow-slide-circle" aria-hidden="true"> <span class="btn-arrow-slide-arrow btn-arrow-slide-icon"></span> </span> <span class="btn-arrow-slide-text"> Learn about DXG </span> </a> </div>
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" class="col-md-4 mb-4">
+          <div data-aos="fade-up" class="col-lg-4 mb-4">
             <div class="card display-card" style="background:#E5EDFB;border-top:8px solid var(--accent-3)!important;">
               <div class="card-body">
-                <h5 class="card-title">For The Future<br>[Strategic Insights and Modeling Lab]</h5>
+                <p><span class="badge pt-2" style="background-color:var(--black)">For The Future</span></p>
+                <h5 class="card-title">Strategic Insights and Modeling Lab (SIMLab)</h5>
                 <p class="card-text">SIMLab is an ad-hoc working group of faculty and staff aimed at advancing UConn's academic operations through data-driven simulations and collaborative research.</p>
               </div>
             </div>
@@ -93,7 +96,7 @@
                 <button class="nav-link text-white fw-bold" data-color="var(--accent-2)" data-filter="research">Research Focus</button>
             </li>
             <li class="nav-item">
-                <button class="nav-link text-white fw-bold" data-color="var(--accent-1)" data-filter="internal">Internal Focus</button>
+                <button class="nav-link text-white fw-bold" data-color="var(--accent-2)" data-filter="internal">Internal Focus</button>
             </li>
             <div class="pill-background position-absolute bg-primary"></div>
         </ul>
@@ -119,20 +122,20 @@
                     ['title' => 'DMCT', 'filter' => 'research', 'image' => '/img/work/dmct.png', 'template' => 'projects.dmct'],
                     ['title' => 'Rain Garden', 'filter' => 'research', 'image' => '/img/work/rain-garden.png', 'template' => 'projects.rain-garden'],
                     ['title' => 'Turfgrass Application', 'filter' => 'research', 'image' => '/img/work/turfgrass.png', 'template' => 'projects.turfgrass'],
-                    ['title' => 'Research Insights for Faculty', 'filter' => 'internal', 'template' => 'projects.rif'],
+                    ['title' => 'Research Insights for Faculty', 'filter' => 'internal', 'template' => 'projects.rif', 'image' => '/img/work/research-insights.png' ],
                     ['title' => 'Faculty Salary Lookup', 'filter' => 'internal', 'template' => 'projects.fac-sal-lookup'],
-                    ['title' => 'Travel Funds', 'filter' => 'internal', 'template' => 'projects.travelfunds'],
-                    ['title' => 'QuantumCT', 'filter' => 'internal', 'template' => 'projects.quantumct'],
-                    ['title' => 'Nexus', 'filter' => 'internal', 'template' => 'projects.nexus'],
+                    ['title' => 'Travel Funds', 'filter' => 'internal', 'template' => 'projects.travelfunds', 'image' => '/img/work/travel-funds.png'],
+                    ['title' => 'QuantumCT', 'filter' => 'internal', 'template' => 'projects.quantumct', 'image' => '/img/work/quantum.png'],
+                    ['title' => 'Nexus', 'filter' => 'internal', 'template' => 'projects.nexus', 'image' => '/img/work/nexus.png'],
                     ['title' => 'Syllabus', 'filter' => 'internal', 'template' => 'projects.syllabus'],
-                    ['title' => 'Werth Institute', 'filter' => 'internal', 'template' => 'projects.werth'],
-                    ['title' => 'Hiring Maps', 'filter' => 'research', 'template' => 'projects.hiring-maps'],
-                    ['title' => 'Extension Publications', 'filter' => 'research', 'template' => 'projects.extension-pubs'],
-                    ['title' => 'Statistical Consulting', 'filter' => 'research', 'template' => 'projects.stat-consult'],
-                    ['title' => 'COR2E Website', 'filter' => 'internal', 'template' => 'projects.cor2e'],
-                    ['title' => 'Ecoregions', 'filter' => 'research', 'template' => 'projects.ecoregions'],
+                    ['title' => 'Werth Institute', 'filter' => 'internal', 'template' => 'projects.werth', 'image' => '/img/work/werth.png'],
+                    ['title' => 'Hiring Maps', 'filter' => 'research', 'template' => 'projects.hiring-maps', 'image' => '/img/work/hiring-maps.png'],
+                    ['title' => 'Extension Publications', 'filter' => 'research', 'template' => 'projects.extension-pubs', 'image' => '/img/work/extension.png'],
+                    ['title' => 'Statistical Consulting', 'filter' => 'research', 'template' => 'projects.stat-consult', 'image' => '/img/work/scs.png'],
+                    ['title' => 'COR2E Website', 'filter' => 'internal', 'template' => 'projects.cor2e', 'image' => '/img/work/core.png'],
+                    ['title' => 'Ecoregions', 'filter' => 'research', 'template' => 'projects.ecoregions', 'image' => '/img/work/ecoregions.png'],
                     ['title' => 'Gant Shark Illustrations', 'filter' => 'internal', 'image' => '/img/work/shark-illustration.jpg', 'template' => 'projects.shark-illustrations'],
-                    ['title' => 'Panademic Journaling Project', 'filter' => 'research', 'template' => 'projects.pandemic-journaling'],
+                    ['title' => 'Panademic Journaling Project', 'filter' => 'research', 'template' => 'projects.pandemic-journaling', 'image' => '/img/work/pandemic-journaling.png'],
                     ['title' => 'New England Crop Insurance App', 'filter' => 'research', 'template' => 'projects.crop-insurance'],
                     ['title' => 'Annual Report Print Design', 'filter' => 'internal', 'template' => 'projects.annual-report-print-design'],
                     // ['title' => 'CT Remembers', 'filter' => 'research', 'template' => 'projects.film-poster-design'],
@@ -145,7 +148,7 @@
                     <div class="position-absolute start-0 end-0 d-flex align-items-center justify-content-center work-item-overlay text-center w-100" @if ( isset($w['template']) ) data-bs-toggle="modal" data-bs-target="#workModal{{$i}}"  @endif >
                         <h4 class="text-white">{{ $w['title'] }}</h4>
                     </div>
-                    <img src="{{ $w['image'] ?? 'img/plalceholder.png' }}" data-aos-anchor="#our-work">
+                    <img src="{{ $w['image'] ?? 'img/plalceholder.png' }}" loading="lazy" data-aos-anchor="#our-work">
                 </div>
                 @if ( isset($w['template']) )
                     <x-dynamic-component :component="$w['template']" modal-id="workModal{{$i}}" />
@@ -164,7 +167,9 @@
   </div>
 
 
-  <div class="build text-white py-20" id="build">
+  <div class="build text-white py-20 position-relative" id="build">
+    <div class="binary-background">
+      101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010101010101010101010101011101010101001010101010101010</div>
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -180,7 +185,12 @@
               <p><span class="badge text-bg-primary pt-2">Launched</span></p>
               <p class="card-text">Developed with the Office of the Vice President for Research, this application is designed to provide UConn faculty and their staff with monthly financial reports and other tools to help them review and manage their sponsored project accounts.</p>
 
-              <a href="https://rif.core.uconn.edu" class="btn btn-primary">Visit RIF</a>
+              {{-- <a href="https://rif.core.uconn.edu" class="btn btn-primary">Visit RIF</a> --}}
+              <div class="btn display-btn btn-arrow-slide"> <a href="https://rif.core.uconn.edu/" target="_blank"
+                class="btn-arrow-slide-cont btn-arrow-slide-cont--blue" style="width:160px"> <span
+                  class="btn-arrow-slide-circle" aria-hidden="true"> <span
+                    class="btn-arrow-slide-arrow btn-arrow-slide-icon"></span> </span> <span
+                  class="btn-arrow-slide-text"> Visit RIF </span> </a> </div>
             </div>
           </div>
         </div>
@@ -202,57 +212,57 @@
     <div class="container">
         <h2 class="text-white display-header mb-4" data-aos="fade-right">The Team</h2>
         <div class="row mb-5">
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/salisbury.jpg" width="200" class="img-fluid rounded-1" alt="Joel Salisbury">
+                        <img loading="lazy" src="/img/people/salisbury.jpg" width="200" class="img-fluid rounded-1" alt="Joel Salisbury">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Joel Salisbury</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Joel Salisbury</h5>
                         <p>Director of Internal Insights & Innovation</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/kelleher.jpg" class="img-fluid rounded-1" width="200" alt="Brian Kelleher">
+                        <img loading="lazy" src="/img/people/kelleher.jpg" class="img-fluid rounded-1" width="200" alt="Brian Kelleher">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Brian Kelleher</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Brian Kelleher</h5>
                         <p>Senior Applications Developer</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/lacroix.jpg" class="img-fluid rounded-1" width="200" alt="Natalie Lacroix">
+                        <img loading="lazy" src="/img/people/lacroix.jpg" class="img-fluid rounded-1" width="200" alt="Natalie Lacroix">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Natalie Lacroix</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Natalie Lacroix</h5>
                         <p>Senior UX Designer</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/winston.jpg" class="img-fluid rounded-1" width="200" alt="Jeff Winston">
+                        <img loading="lazy" src="/img/people/winston.jpg" class="img-fluid rounded-1" width="200" alt="Jeff Winston">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Jeff Winston</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Jeff Winston</h5>
                         <p>Director - Nexus Student Success Platform</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
-                        <img src="/img/people/ameri.JPEG" class="img-fluid rounded-1" width="200" alt="Jon Ameri">
+                        <img loading="lazy" src="/img/people/ameri.JPEG" class="img-fluid rounded-1" width="200" alt="Jon Ameri">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Jon Ameri</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Jon Ameri</h5>
                         <p>Web Development Contractor</p>
                     </div>
                 </div>
@@ -261,24 +271,24 @@
 
         <h3 class="text-white mb-4" data-aos="fade-right">Faculty Advisors</h3>
         <div class="row mb-5">
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
                         <img src="/img/people/daley-400x400.jpg" width="200" class="img-fluid rounded-1" alt="Brian Daley">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Brian Daley</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Brian Daley</h5>
                         <p>Digital Media &amp; Design</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 mb-5" data-aos="fade-right">
+            <div class="col-md-4 col-sm-6 mb-5" data-aos="fade-right">
                 <div class="row">
                     <div class="col-auto">
                         <img src="/img/people/vert.jpg" width="200" class="img-fluid rounded-1" alt="Michael Vertefeuille">
                     </div>
-                    <div class="col">
-                        <h5 class="text-white">Michael Vertefeuille</h5>
+                    <div class="row name">
+                        <h5 class="text-white mt-4">Michael Vertefeuille</h5>
                         <p>Digital Media &amp; Design</p>
                     </div>
                 </div>
@@ -304,9 +314,10 @@
         @endphp
 
         <h3 class="text-white mb-4" data-aos="fade-right">Students</h3>
-        <div class="row">
+        <div class="row" id="students">
             @foreach($students as $student)
-            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-right">
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-right">
+              <div class="name">
                 <h5 class="text-white">{{ $student['name'] }}
                     @if ( $student['linkedin'] )
                     <a href="{{ $student['linkedin'] }}" class="text-white ms-2" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -316,6 +327,7 @@
                 @if ( $student['link'] )
                     <a href="//{{ $student['link'] }}" class="text-light-blue small">{{ $student['link'] }}</a>
                 @endif
+              </div>
             </div>
             @endforeach
         </div>
@@ -379,7 +391,7 @@ $(window).scroll(function() {
       $panel = $('.panel');
   
   // Change 50% earlier than scroll position so color is there when you arrive.
-  var scroll = $window.scrollTop() + ($window.height() / 2);
+  var scroll = $window.scrollTop();
  
   $panel.each(function () {
     var $this = $(this);

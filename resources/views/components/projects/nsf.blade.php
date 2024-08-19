@@ -21,6 +21,6 @@ $links = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="NSF Grant Map" :$links :$badges>
-    <img src="/img/work/nsf.png" alt="NSF Grant Map graphic" class="img-fluid mb-3">
+    <img loading="lazy" src="/img/work/nsf.png" alt="NSF Grant Map graphic" class="img-fluid mb-3">
     <p>Visualization of NSF grants obtained by businesses and higher education institutions within the state of Connecticut between the 2011 and 2022 fiscal years distributed by municipality.</p>
 </x-projects.template-modal>

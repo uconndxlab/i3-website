@@ -21,5 +21,6 @@ $links = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="Werth Institute for Entrepreneurship and Innovation" :$links :$badges>
-    <p>I3 designed and developed the new primary website for the Werth Institute of Entrepreneurship and Innovation.</p>
+    <img loading="lazy" src="/img/work/werth.png" alt="Werth Institute for Entrepreneurship and Innovation graphic" class="img-fluid mb-3">
+    <p>i3 designed and developed the new primary website for the Werth Institute of Entrepreneurship and Innovation.</p>
 </x-projects.template-modal>

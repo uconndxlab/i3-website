@@ -21,6 +21,6 @@ $links = [
 @endphp
 
 <x-projects.template-modal modalId="{{ $modalId }}" title="DMCT" :$links :$badges>
-    <img src="/img/work/dmct.png" alt="DMCT graphic" class="img-fluid mb-3">
+    <img loading="lazy" src="/img/work/dmct.png" alt="DMCT graphic" class="img-fluid mb-3">
     <p>The DX Group built and maintains an ever-growing digital presence to serve as the central source of Information about Connecticut's Digital Media Industry and Education scene. We created a digital platform to serve as the central hub for Digital Media Education and Industry in the state of CT.</p>
 </x-projects.template-modal>
