@@ -10,7 +10,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Middleware\SamlRequired;
 
 
-Route::get('/', [PublicController::class, 'index'])->name('home');
+
 
 Route::get('/saml_login', [AuthController::class, 'saml_login'])->name('saml_login');
 Route::post('/saml', [AuthController::class, 'saml_acs'])->name('saml_acs')->withoutMiddleware([VerifyCsrfToken::class]);
@@ -19,6 +19,7 @@ Route::get('/saml_logout', [AuthController::class, 'saml_logout_redirect'])->nam
 
 
 Route::middleware([SamlRequired::class])->group(function() {
+    Route::get('/', [PublicController::class, 'index'])->name('home');
     Route::post('/posts/{id}/admin-update', [PostsController::class, 'admin_update'])->name('posts.admin-update');
 
     Route::get('/posts/create', [PostsController::class, 'create'])->name('posts.create');

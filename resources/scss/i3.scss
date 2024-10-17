@@ -393,6 +393,7 @@ header {
   border: 3px dashed var(--black);
   overflow:hidden!important;
   transform:  translatex(-50%) translatey(-50%);
+  z-index:2;
 }
 
 .circle1 {

@@ -22,6 +22,11 @@ class SamlRequired
             $expire = $request->session()->get('samlExpire');
             if ( $expire && $expire > time() ) {
                 // Auth facade should already have the user at this point and we can continue.
+
+                if ( !in_array(Auth::user()->netid, explode(',', env('CAS_ALLOW', ''))) ){
+                    return response('Unauthorized', 401);
+                }
+
                 return $next($request);
             }
         }
@@ -31,6 +36,7 @@ class SamlRequired
         $auth = new SamlAuth(config('saml'));
         $redirect_url = $auth->login(null, [], false, false, true);
         $request->session()->put('requestId', $auth->getLastRequestID());
+        
         return redirect($redirect_url);
     }
 }
